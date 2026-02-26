@@ -1,7 +1,7 @@
 package org.impact.sentinelx.dto;
 
-import com.giteck.academy.sentinelx.nume.NotificationChannel;
-import com.giteck.academy.sentinelx.nume.NotificationStatus;
+import org.impact.sentinelx.nume.NotificationChannel;
+import org.impact.sentinelx.nume.NotificationStatus;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;

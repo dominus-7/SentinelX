@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/controller/RetryExecutionController.java
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.dto.RetryExecutionDTO;
-import com.giteck.academy.sentinelx.service.RetryExecutionService;
+import org.impact.sentinelx.dto.RetryExecutionDTO;
+import org.impact.sentinelx.service.RetryExecutionService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

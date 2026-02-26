@@ -1,11 +1,11 @@
 // src/main/java/com/giteck/academy/sentinelx/service/impl/ProfilingTraceServiceImpl.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.dto.ProfilingTraceDTO;
-import com.giteck.academy.sentinelx.entity.ProfilingTrace;
-import com.giteck.academy.sentinelx.mapping.ProfilingTraceMapper;
-import com.giteck.academy.sentinelx.repository.ProfilingTraceRepository;
-import com.giteck.academy.sentinelx.service.ProfilingTraceService;
+import org.impact.sentinelx.dto.ProfilingTraceDTO;
+import org.impact.sentinelx.entity.ProfilingTrace;
+import org.impact.sentinelx.mapping.ProfilingTraceMapper;
+import org.impact.sentinelx.repository.ProfilingTraceRepository;
+import org.impact.sentinelx.service.ProfilingTraceService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/aspect/profiling/ProfilingAspect.java
 package org.impact.sentinelx.aspect.profiling;
 
-import com.giteck.academy.sentinelx.security.SimulatedSecurityContextHolder;
+import org.impact.sentinelx.security.SimulatedSecurityContextHolder;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -22,16 +22,16 @@ public class ProfilingAspect {
     private static final ThreadLocal<Integer> depthHolder = ThreadLocal.withInitial(() -> 0);
 
     // Pointcut 1 : Tous les services SAUF ceux de l'audit et du profiling pour éviter les boucles infinies
-    @Pointcut("execution(* com.giteck.academy.sentinelx.service.impl.*.*(..)) " +
-            "&& !within(com.giteck.academy.sentinelx.service.impl.Profiling*) " +
-            "&& !within(com.giteck.academy.sentinelx.service.impl.AuditEvent*)"+
-            "&& !within(com.giteck.academy.sentinelx.service.impl.FinalFeeEngine)")
+    @Pointcut("execution(* org.impact.sentinelx.service.impl.*.*(..)) " +
+            "&& !within(org.impact.sentinelx.service.impl.Profiling*) " +
+            "&& !within(org.impact.sentinelx.service.impl.AuditEvent*)"+
+            "&& !within(org.impact.sentinelx.service.impl.FinalFeeEngine)")
     public void serviceLayer() {}
 
     // Pointcut 2 : Tous les repositories
-    @Pointcut("execution(* com.giteck.academy.sentinelx.repository.*.*(..)) " +
-            "&& !within(com.giteck.academy.sentinelx.repository.Profiling*) " +
-            "&& !within(com.giteck.academy.sentinelx.repository.AuditEvent*)")
+    @Pointcut("execution(* org.impact.sentinelx.repository.*.*(..)) " +
+            "&& !within(org.impact.sentinelx.repository.Profiling*) " +
+            "&& !within(org.impact.sentinelx.repository.AuditEvent*)")
     public void repositoryLayer() {}
 
     @Around("serviceLayer() || repositoryLayer()")

@@ -1,7 +1,7 @@
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.dto.FeeComputationDTO;
-import com.giteck.academy.sentinelx.service.impl.FeeComputationServiceImpl;
+import org.impact.sentinelx.dto.FeeComputationDTO;
+import org.impact.sentinelx.service.impl.FeeComputationServiceImpl;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

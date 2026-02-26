@@ -1,7 +1,7 @@
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.dto.AuditEventDTO;
-import com.giteck.academy.sentinelx.service.impl.AuditEventServiceImpl;
+import org.impact.sentinelx.dto.AuditEventDTO;
+import org.impact.sentinelx.service.impl.AuditEventServiceImpl;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

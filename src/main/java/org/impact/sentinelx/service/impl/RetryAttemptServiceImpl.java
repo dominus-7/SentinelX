@@ -1,12 +1,12 @@
 // src/main/java/com/giteck/academy/sentinelx/service/impl/RetryAttemptServiceImpl.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.dto.RetryAttemptDTO;
-import com.giteck.academy.sentinelx.entity.RetryAttempt;
-import com.giteck.academy.sentinelx.mapping.RetryAttemptMapper;
-import com.giteck.academy.sentinelx.repository.RetryAttemptRepository;
-import com.giteck.academy.sentinelx.repository.RetryExecutionRepository;
-import com.giteck.academy.sentinelx.service.RetryAttemptService;
+import org.impact.sentinelx.dto.RetryAttemptDTO;
+import org.impact.sentinelx.entity.RetryAttempt;
+import org.impact.sentinelx.mapping.RetryAttemptMapper;
+import org.impact.sentinelx.repository.RetryAttemptRepository;
+import org.impact.sentinelx.repository.RetryExecutionRepository;
+import org.impact.sentinelx.service.RetryAttemptService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

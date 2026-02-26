@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/dto/TransferDTO.java
 package org.impact.sentinelx.dto;
 
-import com.giteck.academy.sentinelx.nume.Currency;
-import com.giteck.academy.sentinelx.nume.TransferStatus;
+import org.impact.sentinelx.nume.Currency;
+import org.impact.sentinelx.nume.TransferStatus;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;

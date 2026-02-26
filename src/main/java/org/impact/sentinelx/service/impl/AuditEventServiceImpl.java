@@ -1,11 +1,11 @@
 // AuditEventServiceImpl.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.dto.AuditEventDTO;
-import com.giteck.academy.sentinelx.entity.AuditEvent;
-import com.giteck.academy.sentinelx.mapping.AuditEventMapper;
-import com.giteck.academy.sentinelx.repository.AuditEventRepository;
-import com.giteck.academy.sentinelx.service.AuditEventService;
+import org.impact.sentinelx.dto.AuditEventDTO;
+import org.impact.sentinelx.entity.AuditEvent;
+import org.impact.sentinelx.mapping.AuditEventMapper;
+import org.impact.sentinelx.repository.AuditEventRepository;
+import org.impact.sentinelx.service.AuditEventService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

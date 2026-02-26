@@ -1,10 +1,10 @@
 // FeeComputationServiceImpl.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.dto.FeeComputationDTO;
-import com.giteck.academy.sentinelx.mapping.FeeComputationMapper;
-import com.giteck.academy.sentinelx.repository.FeeComputationRepository;
-import com.giteck.academy.sentinelx.service.FeeComputationService;
+import org.impact.sentinelx.dto.FeeComputationDTO;
+import org.impact.sentinelx.mapping.FeeComputationMapper;
+import org.impact.sentinelx.repository.FeeComputationRepository;
+import org.impact.sentinelx.service.FeeComputationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import java.util.List;

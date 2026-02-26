@@ -1,6 +1,6 @@
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.service.impl.TransferBusinessService;
+import org.impact.sentinelx.service.impl.TransferBusinessService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

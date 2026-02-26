@@ -1,9 +1,9 @@
 // src/main/java/com/giteck/academy/sentinelx/controller/AccountController.java
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.dto.AccountDTO;
-import com.giteck.academy.sentinelx.security.SimulatedSecurityContextHolder;
-import com.giteck.academy.sentinelx.service.AccountService;
+import org.impact.sentinelx.dto.AccountDTO;
+import org.impact.sentinelx.security.SimulatedSecurityContextHolder;
+import org.impact.sentinelx.service.AccountService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

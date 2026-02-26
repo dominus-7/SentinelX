@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/controller/ProfilingTraceController.java
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.dto.ProfilingTraceDTO;
-import com.giteck.academy.sentinelx.service.ProfilingTraceService;
+import org.impact.sentinelx.dto.ProfilingTraceDTO;
+import org.impact.sentinelx.service.ProfilingTraceService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

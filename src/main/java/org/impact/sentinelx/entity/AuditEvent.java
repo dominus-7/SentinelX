@@ -1,6 +1,6 @@
 package org.impact.sentinelx.entity;
 
-import com.giteck.academy.sentinelx.nume.AuditStatus;
+import org.impact.sentinelx.nume.AuditStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

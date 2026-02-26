@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/repository/AccountRepository.java
 package org.impact.sentinelx.repository;
 
-import com.giteck.academy.sentinelx.entity.Account;
+import org.impact.sentinelx.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

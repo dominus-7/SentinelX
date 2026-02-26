@@ -1,12 +1,12 @@
 // NotificationServiceImpl.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.dto.NotificationDTO;
-import com.giteck.academy.sentinelx.entity.Notification;
-import com.giteck.academy.sentinelx.mapping.NotificationMapper;
-import com.giteck.academy.sentinelx.repository.NotificationRepository;
-import com.giteck.academy.sentinelx.repository.TransferRepository;
-import com.giteck.academy.sentinelx.service.NotificationService;
+import org.impact.sentinelx.dto.NotificationDTO;
+import org.impact.sentinelx.entity.Notification;
+import org.impact.sentinelx.mapping.NotificationMapper;
+import org.impact.sentinelx.repository.NotificationRepository;
+import org.impact.sentinelx.repository.TransferRepository;
+import org.impact.sentinelx.service.NotificationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

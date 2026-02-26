@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/service/RetryAttemptService.java
 package org.impact.sentinelx.service;
 
-import com.giteck.academy.sentinelx.dto.RetryAttemptDTO;
+import org.impact.sentinelx.dto.RetryAttemptDTO;
 import org.springframework.data.domain.Page;
 import java.util.List;
 

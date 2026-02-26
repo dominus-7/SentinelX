@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/mapping/FeeComputationMapper.java
 package org.impact.sentinelx.mapping;
 
-import com.giteck.academy.sentinelx.entity.FeeComputation;
-import com.giteck.academy.sentinelx.dto.FeeComputationDTO;
+import org.impact.sentinelx.entity.FeeComputation;
+import org.impact.sentinelx.dto.FeeComputationDTO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 

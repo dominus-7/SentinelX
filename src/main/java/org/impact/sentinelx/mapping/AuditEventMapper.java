@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/mapping/AuditEventMapper.java
 package org.impact.sentinelx.mapping;
 
-import com.giteck.academy.sentinelx.entity.AuditEvent;
-import com.giteck.academy.sentinelx.dto.AuditEventDTO;
+import org.impact.sentinelx.entity.AuditEvent;
+import org.impact.sentinelx.dto.AuditEventDTO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 

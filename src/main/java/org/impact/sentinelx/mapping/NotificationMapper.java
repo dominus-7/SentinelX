@@ -1,7 +1,7 @@
 package org.impact.sentinelx.mapping;
 
-import com.giteck.academy.sentinelx.entity.Notification;
-import com.giteck.academy.sentinelx.dto.NotificationDTO;
+import org.impact.sentinelx.entity.Notification;
+import org.impact.sentinelx.dto.NotificationDTO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 

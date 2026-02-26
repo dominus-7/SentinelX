@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/mapping/AccountMapper.java
 package org.impact.sentinelx.mapping;
 
-import com.giteck.academy.sentinelx.entity.Account;
-import com.giteck.academy.sentinelx.dto.AccountDTO;
+import org.impact.sentinelx.entity.Account;
+import org.impact.sentinelx.dto.AccountDTO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 

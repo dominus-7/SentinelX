@@ -1,7 +1,7 @@
 package org.impact.sentinelx.mapping;
 
-import com.giteck.academy.sentinelx.entity.ProfilingTrace;
-import com.giteck.academy.sentinelx.dto.ProfilingTraceDTO;
+import org.impact.sentinelx.entity.ProfilingTrace;
+import org.impact.sentinelx.dto.ProfilingTraceDTO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 

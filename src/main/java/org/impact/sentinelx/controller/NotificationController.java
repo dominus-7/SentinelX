@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/controller/NotificationController.java
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.dto.NotificationDTO;
-import com.giteck.academy.sentinelx.service.NotificationService;
+import org.impact.sentinelx.dto.NotificationDTO;
+import org.impact.sentinelx.service.NotificationService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/entity/Account.java
 package org.impact.sentinelx.entity;
 
-import com.giteck.academy.sentinelx.nume.AccountStatus;
-import com.giteck.academy.sentinelx.nume.Currency;
+import org.impact.sentinelx.nume.AccountStatus;
+import org.impact.sentinelx.nume.Currency;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/service/ProfilingTraceService.java
 package org.impact.sentinelx.service;
 
-import com.giteck.academy.sentinelx.dto.ProfilingTraceDTO;
+import org.impact.sentinelx.dto.ProfilingTraceDTO;
 import java.util.List;
 
 public interface ProfilingTraceService {

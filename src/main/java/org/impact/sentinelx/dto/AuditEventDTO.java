@@ -1,6 +1,6 @@
 package org.impact.sentinelx.dto;
 
-import com.giteck.academy.sentinelx.nume.AuditStatus;
+import org.impact.sentinelx.nume.AuditStatus;
 import lombok.*;
 
 import java.time.Instant;

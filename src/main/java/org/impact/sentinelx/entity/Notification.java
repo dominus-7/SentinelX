@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/entity/Notification.java
 package org.impact.sentinelx.entity;
 
-import com.giteck.academy.sentinelx.nume.NotificationChannel;
-import com.giteck.academy.sentinelx.nume.NotificationStatus;
+import org.impact.sentinelx.nume.NotificationChannel;
+import org.impact.sentinelx.nume.NotificationStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

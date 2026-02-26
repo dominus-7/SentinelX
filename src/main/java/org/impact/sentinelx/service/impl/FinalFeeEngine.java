@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/service/impl/FinalFeeEngine.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.aspect.retry.RetryOnFailure;
+import org.impact.sentinelx.aspect.retry.RetryOnFailure;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

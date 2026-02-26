@@ -1,12 +1,12 @@
 // src/main/java/com/giteck/academy/sentinelx/service/impl/AccountServiceImpl.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.aspect.audit.SecureAudit;
-import com.giteck.academy.sentinelx.dto.AccountDTO;
-import com.giteck.academy.sentinelx.entity.Account;
-import com.giteck.academy.sentinelx.mapping.AccountMapper;
-import com.giteck.academy.sentinelx.repository.AccountRepository;
-import com.giteck.academy.sentinelx.service.AccountService;
+import org.impact.sentinelx.aspect.audit.SecureAudit;
+import org.impact.sentinelx.dto.AccountDTO;
+import org.impact.sentinelx.entity.Account;
+import org.impact.sentinelx.mapping.AccountMapper;
+import org.impact.sentinelx.repository.AccountRepository;
+import org.impact.sentinelx.service.AccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

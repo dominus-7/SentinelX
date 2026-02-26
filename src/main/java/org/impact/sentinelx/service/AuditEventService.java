@@ -1,5 +1,5 @@
 package org.impact.sentinelx.service;
-import com.giteck.academy.sentinelx.dto.AuditEventDTO;
+import org.impact.sentinelx.dto.AuditEventDTO;
 import org.springframework.data.domain.Page;
 import java.util.List;
 

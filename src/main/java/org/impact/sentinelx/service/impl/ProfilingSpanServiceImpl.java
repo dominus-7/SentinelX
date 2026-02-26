@@ -1,12 +1,12 @@
 // src/main/java/com/giteck/academy/sentinelx/service/impl/ProfilingSpanServiceImpl.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.dto.ProfilingSpanDTO;
-import com.giteck.academy.sentinelx.entity.ProfilingSpan;
-import com.giteck.academy.sentinelx.mapping.ProfilingSpanMapper;
-import com.giteck.academy.sentinelx.repository.ProfilingSpanRepository;
-import com.giteck.academy.sentinelx.repository.ProfilingTraceRepository;
-import com.giteck.academy.sentinelx.service.ProfilingSpanService;
+import org.impact.sentinelx.dto.ProfilingSpanDTO;
+import org.impact.sentinelx.entity.ProfilingSpan;
+import org.impact.sentinelx.mapping.ProfilingSpanMapper;
+import org.impact.sentinelx.repository.ProfilingSpanRepository;
+import org.impact.sentinelx.repository.ProfilingTraceRepository;
+import org.impact.sentinelx.service.ProfilingSpanService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

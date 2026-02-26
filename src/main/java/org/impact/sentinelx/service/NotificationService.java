@@ -1,5 +1,5 @@
 package org.impact.sentinelx.service;
-import com.giteck.academy.sentinelx.dto.NotificationDTO;
+import org.impact.sentinelx.dto.NotificationDTO;
 
 import org.springframework.data.domain.Page;
 import java.util.List;

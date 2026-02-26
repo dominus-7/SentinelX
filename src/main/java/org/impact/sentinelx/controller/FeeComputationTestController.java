@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/controller/FeeComputationTestController.java
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.service.impl.FinalFeeEngine;
+import org.impact.sentinelx.service.impl.FinalFeeEngine;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

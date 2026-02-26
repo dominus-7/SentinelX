@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/service/impl/DummyDataService.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.aspect.cache.CustomCache;
+import org.impact.sentinelx.aspect.cache.CustomCache;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

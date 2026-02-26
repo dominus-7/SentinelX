@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/service/impl/TransferBusinessService.java
 package org.impact.sentinelx.service.impl;
 
-import com.giteck.academy.sentinelx.dto.AccountDTO;
-import com.giteck.academy.sentinelx.service.AccountService;
+import org.impact.sentinelx.dto.AccountDTO;
+import org.impact.sentinelx.service.AccountService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

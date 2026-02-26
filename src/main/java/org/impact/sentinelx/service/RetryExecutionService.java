@@ -1,6 +1,6 @@
 package org.impact.sentinelx.service;
 
-import com.giteck.academy.sentinelx.dto.RetryExecutionDTO;
+import org.impact.sentinelx.dto.RetryExecutionDTO;
 import java.util.List;
 
 public interface RetryExecutionService {

@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/controller/SentinelStatusController.java
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.dto.SentinelFeatureStatus;
+import org.impact.sentinelx.dto.SentinelFeatureStatus;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.CrossOrigin;

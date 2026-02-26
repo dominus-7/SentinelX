@@ -1,10 +1,10 @@
 // src/main/java/com/giteck/academy/sentinelx/aspect/audit/AuditAspect.java
 package org.impact.sentinelx.aspect.audit;
 
-import com.giteck.academy.sentinelx.dto.AuditEventDTO;
-import com.giteck.academy.sentinelx.nume.AuditStatus;
-import com.giteck.academy.sentinelx.security.SimulatedSecurityContextHolder;
-import com.giteck.academy.sentinelx.service.AuditEventService;
+import org.impact.sentinelx.dto.AuditEventDTO;
+import org.impact.sentinelx.nume.AuditStatus;
+import org.impact.sentinelx.security.SimulatedSecurityContextHolder;
+import org.impact.sentinelx.service.AuditEventService;
 import lombok.RequiredArgsConstructor;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

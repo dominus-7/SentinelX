@@ -1,6 +1,6 @@
 package org.impact.sentinelx.service;
 
-import com.giteck.academy.sentinelx.dto.AccountDTO;
+import org.impact.sentinelx.dto.AccountDTO;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

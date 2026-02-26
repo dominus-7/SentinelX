@@ -1,7 +1,7 @@
 package org.impact.sentinelx.mapping;
 
-import com.giteck.academy.sentinelx.entity.RetryExecution;
-import com.giteck.academy.sentinelx.dto.RetryExecutionDTO;
+import org.impact.sentinelx.entity.RetryExecution;
+import org.impact.sentinelx.dto.RetryExecutionDTO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Component;
 

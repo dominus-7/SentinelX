@@ -1,7 +1,7 @@
 package org.impact.sentinelx.entity;
 
-import com.giteck.academy.sentinelx.nume.Currency;
-import com.giteck.academy.sentinelx.nume.TransferStatus;
+import org.impact.sentinelx.nume.Currency;
+import org.impact.sentinelx.nume.TransferStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

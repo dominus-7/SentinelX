@@ -1,8 +1,8 @@
 // src/main/java/com/giteck/academy/sentinelx/controller/ProfilingSpanController.java
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.dto.ProfilingSpanDTO;
-import com.giteck.academy.sentinelx.service.ProfilingSpanService;
+import org.impact.sentinelx.dto.ProfilingSpanDTO;
+import org.impact.sentinelx.service.ProfilingSpanService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
 package org.impact.sentinelx.service;
 
-import com.giteck.academy.sentinelx.dto.ProfilingSpanDTO;
+import org.impact.sentinelx.dto.ProfilingSpanDTO;
 import java.util.List;
 
 public interface ProfilingSpanService {

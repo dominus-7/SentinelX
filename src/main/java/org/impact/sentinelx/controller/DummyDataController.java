@@ -1,7 +1,7 @@
 // src/main/java/com/giteck/academy/sentinelx/controller/DummyDataController.java
 package org.impact.sentinelx.controller;
 
-import com.giteck.academy.sentinelx.service.impl.DummyDataService;
+import org.impact.sentinelx.service.impl.DummyDataService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
